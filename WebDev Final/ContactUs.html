@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--
+    Name: Azariah Bryant
+    File Name: Index.html
+    Date: April 21st 2024
+-->
+<html lang="em">
+<head>
+    <title>page 1</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+    <body>
+        <header>
+            <nav>
+              <div class="mobile-container">
+                <ol class="menu">
+                  <li><a href="Index.html">Home</a></li>
+                  <li><a href="Qualifications.html">About Us</a></li>
+                  <li><a href="Examples.html">Our Work</a></li>
+                  <li><a href="ContactUs.html">Contact Us</a></li>
+                </ol>
+              </div>
+              <!--
+              <section>
+                  <div href="javascript:void(0);" class="hamburger" onclick="myFunction(this)">
+                      <div class="bar1"></div>
+                      <div class="bar2"></div>
+                      <div class="bar3"></div>
+                  </div>
+              </section>
+              -->
+            </nav>
+        </header>
+        
+        <section  class="container">
+            <section id = permanent >
+                <h1>General Patient Information</h1>
+
+                <label>Patient Name</label>
+                <input id="name" type="text">
+
+                <label">Address</label>
+                <input id="address" type="text">
+
+                <label>Date of Birth</label>
+                <input id="DOB" type="text">
+
+                <label>Patient Primary Phone</label>
+                <input id="phone" type="text">
+
+                <label>
+                    <input type="checkbox" id="boxPPI" />
+                    Patient has Primary Insurance
+                </label>
+
+                <label>
+                    <input type="checkbox" class="boxPTA" />
+                    Patient opts-in for text alerts.                
+                </label>
+
+            </section>
+
+            <section id= "primary">
+
+                <h2>Primary Insurance</h2>
+
+                <label>Insurance Company</label>
+                <input class="iCompany" type="text">
+
+                <label>Plan ID</label>
+                <input class="ID" type="text">
+
+                <label>Group Code</label>
+                <input class="groupCode" type="text">
+
+                <label>
+                    <input type="checkbox" id="boxPSI" />
+                    Patient has Secondary Insurance.                
+                </label>
+                <label>
+                    <input type="checkbox" class="boxPTA" />
+                    Patient opts-in for text alerts.                
+                </label>
+
+            </section>
+
+            <section id= "secondary">
+
+                <h2>Secondary Insurance</h2>
+
+                <label>Insurance Company</label>
+                <input class="iCompany" type="text">
+
+                <label>Plan ID</label>
+                <input class="ID" type="text">
+
+                <label>Group Code</label>
+                <input class="groupCode" type="text">
+
+                <label>
+                    <input type="checkbox" class="boxPTA" />
+                    Patient opts-in for text alerts.                
+                </label>                
+                
+            </section>
+
+            <section id= "textAlert">
+
+                <h2>Text Alert Information</h2>
+
+                <label>Mobile Phone Number</label>
+                <input class="Mobile Number" type="text">
+
+                <label>Patient Primary Phone</label>
+                <input class="Mobile Carrier" type="text">
+
+            </section>
+
+        <input id= "submit" type= "button" value="Submit">
+        <!--embeded audio file-->
+        <audio id="audio" src="noise_file.mp3"></audio>
+        </section>
+    </body>
+
+<footer>
+    <div class="container">
+        <!--3 hyper links
+        irdered list
+        -->
+        <ol>
+            <li>
+               <a href="https://github.com/A7ariah">GitHub</a>
+            </li>
+
+            <li>
+                <a href="http://bit502.com/">Bit502</a>
+            </li>
+
+            <li>
+                <a href="https://payments.found.com/preview-account-info/jhVJQfqwmLsV">Patient Payments</a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/in/azariah-b-12058718b/">Linkdln</a>
+            </li>
+
+            <li>
+                <a>&copy; 2024 AnansiWebDev.com. All rights reserved.</a>
+            </li>
+        </ol>
+    </div>
+</footer>
+</html>
